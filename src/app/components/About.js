@@ -40,7 +40,10 @@ const About = () => {
                  <p className='font-bold text-white'>Tempor malesuada eget placerat proin turpis ut at tortor. Amet sed bibendum nisl ut nibh at. Praesent porttitor fusce sed eu dolor enim turpis sociis.
                     Viverra est ultrices feugiat sociis lacinia pretium in placerat. Ultrices nibh quisque eu orci aliquam enim
  et sapien aliquet. Ac viverra malesuada at arcu metus. Dignissim fames sit bibendum velit imperdiet felis. Maecenas egestas viverra a accumsan maecenas tortor. Est convallis a volutpat enim faucibus congue facilisis hac ultrices.</p>
-               <p className='w-[140px] text-white'>''</p>
+               <p className='w-[140px] text-white'>Icons adds</p>
+               </div>
+               <div>
+                 
                </div>
              </div>
 
