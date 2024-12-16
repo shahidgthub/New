@@ -11,13 +11,13 @@ const Footer = () => {
       <>
       <section className='bg-[black] mt-12' >
           <div className='container mx-auto'>
-              <div className='grid grid-cols-5'>
-              <div>
+              <div className='grid xl:grid-cols-5 md:grid-cols-3 xl:sm:grid-cols-2  sm:grid-cols-1 xl:justify-start justify-center'>
+              <div className=''>
               <p className='font-bold text-[20px] text-white py-6'>Creative Agency</p>
               <p className='text-white'>Velit facilisi senectus velitelementum. 
                   Consequat vel arcu feugiat dui eu tempor pretium at porta.
                    Dui pellentesque sagittis scelerisque</p></div>
-                   <div className='text-white lg:flex md:hidden'></div>
+                   <div className='text-white lg:flex hidden'></div>
                    <div className='text-white pt-6 space-y-4'>
                        <h1 className='text-[20px] font-bold'>Copmany</h1>
                        <p>Team</p>
@@ -45,7 +45,7 @@ const Footer = () => {
                    </div>
                    </div>
                    
-                       <ul className='flex gap-12 text-white justify-center pt-24'>
+                       <ul className='flex lg:gap-12 gap-4 text-white justify-center pt-24'>
                            <li><Link href='' className='text-[16px]'>Home</Link></li>
                            <li><Link href='' className='text-[16px]'>About</Link></li>
                            <li><Link href='' className='text-[16px]'>Service</Link></li>
