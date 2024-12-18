@@ -4,6 +4,7 @@ import rosely from '../../../public/images/Rosely.png'
 import { IoLocationSharp } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import Footer from './Footer';
 
 
 
@@ -60,21 +61,21 @@ into digital solutions</p>
   
   <button 
     type="submit" 
-    className="px-4 py-2 bg-black text-white rounded hover:bg-gray-800"
+    className="px-4 py-2 bg-black text-[#24FD54] rounded hover:bg-gray-800"
   >
     Send Message
   </button>
 </form>
 
 </div>
-<div><Image src={rosely} className='w-[636px]'/></div>
+<div><Image src={rosely} className='w-[636px] h-[600px]'/></div>
 </div>
 {/* 3 */}
 <div className='flex gap-3 pt-6 lg:flex-nowrap flex-wrap'>
     <div className='bg-black w-[416px] h-[180px] '>
         <p className='font-bold text-center text-white pt-12 text-[20px]'>Address</p>
         <div className='flex items-center justify-center gap-3'>
-        <IoLocationSharp  className='w-[40px] h-[40px] text-white'/>
+        <IoLocationSharp  className='w-[40px] h-[40px] text-[#24FD54]'/>
 <p className='text-white py-6 font-bold'>7914 Lees Creek<br/> 
 St. Dayton, OH 45420</p>
 </div>
@@ -83,7 +84,7 @@ St. Dayton, OH 45420</p>
     <div className='bg-black w-[416px] h-[180px] '>
         <p className='font-bold text-center text-white pt-12 text-[20px]'>Email</p>
         <div className='flex items-center justify-center gap-3'>
-        <MdOutlineMail className='w-[40px] h-[40px] text-white'/>
+        <MdOutlineMail className='w-[40px] h-[40px] text-[#24FD54]'/>
 <p className='text-white py-6 font-bold'>dhrakar@msn.com<br/>
 mrsam@gmail.com</p>
 </div>
@@ -92,7 +93,7 @@ mrsam@gmail.com</p>
     <div className='bg-black w-[416px] h-[180px] '>
         <p className='font-bold text-center text-white pt-12 text-[20px]'>Phone</p>
         <div className='flex items-center justify-center gap-3'>
-        <FaPhoneAlt className='w-[40px] h-[40px] text-white'/>
+        <FaPhoneAlt className='w-[40px] h-[40px] text-[#24FD54]'/>
 <p className='text-white py-6 font-bold'>(437) 402-2459<br/>
 (928) 630-9272
  </p>
@@ -100,16 +101,28 @@ mrsam@gmail.com</p>
     </div>
 
 </div>
-<div class="relative w-full h-0 pb-[75%] overflow-hidden rounded-lg">
-  <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26582.934903732472!2d73.14608096881844!3d33.60875873491331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfec0851d92db3%3A0x66f28b1327836ee2!2sGulberg%20Greens%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1734080407976!5m2!1sen!2s" 
-    class="absolute top-0 left-0 w-[1220px] h-[320px] pt-12 border-0" 
-    allowFullScreen="" 
-    loading="lazy" 
-    referrerPolicy="no-referrer-when-downgrade">
-  </iframe>
+<div className="relative w-full pt-[75%] overflow-hidden rounded-lg mt-6">
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26582.934903732472!2d73.14608096881844!3d33.60875873491331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfec0851d92db3%3A0x66f28b1327836ee2!2sGulberg%20Greens%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1734080407976!5m2!1sen!2s"
+    className="absolute top-0 left-0 w-full h-full border-0"
+    allowFullScreen
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
 </div>
+<div className="bg-[#000000CC] mt-6 py-12">
+  <p className="text-white text-[32px] font-bold text-center pt-6">Where Vision Transforms into Reality</p>
+  <p className='text-white text-center py-6'>Velit facilisi senectus velit elementum. Consequat vel arcu feugiat dui eu 
+    tempor pretium at porta. Dui pellentesque sagittis scelerisque</p>
+    <div className='flex justify-center'>
+    <button className='font-bold px-6 py-3 bg-[#24FD54]'>Learn More</button>
+    </div>
+    <Footer />
+
 </div>
+
+</div>
+
 
     </>
   )
