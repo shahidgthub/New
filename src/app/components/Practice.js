@@ -51,7 +51,7 @@ const Practice = () => {
           ))}
         </tbody>
       </table>
-    </div>
+    </div>    
   );
 };
 

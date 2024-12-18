@@ -1,5 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
+import bussiness from '../../../public/images/Bussiness.jpg'
+import individual from '../../../public/images/individual.jpg'
+import development from '../../../public/images/Webdevelopment.jpg'
+import insta from '../../../public/images/instagram.jpg'
+
+
+
 import blog from '../../../public/images/Blog1.png'
 import Rosely from '../../../public/images/Rosely.png'
 import { FaArrowRight } from "react-icons/fa";
@@ -28,14 +35,15 @@ const Project = () => {
           <h2 className='text-[32px] text-center font-bold'>We have solutions for <br/>any problem</h2>
           <div className='flex gap-6 lg:flex-nowrap flex-wrap'>
                <div className='bg-[#FFFFFF] w-[636px]'>
-              <Image src={blog} className='w-[636px]'/>
+              <Image src={bussiness} className='w-[636px]'/>
               <p className='font-bold border-b-2 border-[#24FD54] py-3'>For Bussiness</p>
               <p className='py-4'>Magnis id rhoncus vitae sit. Arcu massa duis velit in nibh sollicitudin mauris imperdiet posuer</p>
                 </div>
             {/* 2 */}<div className='bg-[#FFFFFF] w-[636px]'>
-              <Image src={blog} className='w-[636px]'/>
-              <p className='font-bold border-b-2 border-[#24FD54] py-3'>For Bussiness</p>
-              <p className='py-4'>Magnis id rhoncus vitae sit. Arcu massa duis velit in nibh sollicitudin mauris imperdiet posuer</p>
+              <Image src={individual} className='w-[636px]'/>
+              <p className='font-bold border-b-2 border-[#24FD54] py-3'>For Individuall</p>
+              <p className='py-4'>Tortor pellentesque elementum volutpat vel gravida nisl vulputate. 
+              Ut faucibus gravida pharetra lectus etiam sed purus ornare lacus</p>
 
                    </div>
               
@@ -118,7 +126,7 @@ const Project = () => {
              <h1 className='font-bold text-[38px] text-center'> Our Projects</h1>
              <div className='flex gap-6 lg:flex-nowrap flex-wrap'>
              <div>
-             <Image src={Rosely} alt='rosely' className=' xl:w-[411px] lg:w-[400px] md:w-[380px] sm:w-[320px] h-[320px]'/>
+             <Image src={development} alt='rosely' className=' xl:w-[411px] lg:w-[400px] md:w-[380px] sm:w-[320px] h-[320px]'/>
              <div className='bg-black lg:w-[400px] md:w-[380px] sm:w-[320px] absolute -mt-12'>
                <div className='flex justify-between py-2 px-2'>
                <p className='text-white text-[20px]'>Web Development</p>
@@ -127,7 +135,7 @@ const Project = () => {
                </div></div>
                </div>
                <div className=''>
-               <Image src={Rosely} alt='rosely' className=' lg:w-[400px] md:w-[380px] sm:w-[320px] h-[320px]'/>
+               <Image src={development} alt='rosely' className=' lg:w-[400px] md:w-[380px] sm:w-[320px] h-[320px]'/>
              <div className='bg-black lg:w-[400px] md:w-[380px] sm:w-[320px] absolute -mt-12'>
                <div className='flex justify-between py-2 px-2'>
                <p className='text-white text-[20px]'>Web Development</p>
@@ -137,7 +145,7 @@ const Project = () => {
                  
                </div>
                <div className=''>
-               <Image src={Rosely} alt='rosely' className=' lg:w-[400px] md:w-[380px] sm:w-[320px] h-[320px]'/>
+               <Image src={development} alt='rosely' className=' lg:w-[400px] md:w-[380px] sm:w-[320px] h-[320px]'/>
              <div className='bg-black lg:w-[400px] md:w-[380px] sm:w-[320px] absolute -mt-12'>
                <div className='flex justify-between py-2 px-2'>
                <p className='text-white text-[20px]'>Web Development</p>
@@ -148,8 +156,8 @@ const Project = () => {
                </div>
                <div className='flex pt-6 gap-12 lg:flex-nowrap flex-wrap'>
                  <div className='xl:w-[613px]'>
-                 <Image src={Rosely} alt='rosely' className='xl:w-[613px] h-[500px]'/>
-               <div className='bg-black w-[613px] absolute -mt-12'>
+                 <Image src={development} alt='rosely' className='xl:w-[613px] h-[500px]'/>
+               <div className='bg-black xl:w-[613px] absolute -mt-12'>
                <div className='flex justify-between py-2 px-2'>
                <p className='text-white text-[20px]'>Web Development</p>
                <p className=' border  border-[#25FD54] text-[#25FD54]  rounded-full inline-block py-2 px-2'>
@@ -158,7 +166,7 @@ const Project = () => {
                </div>
                {/* 2 */}
                <div className='xl:w-[613px]'>
-                 <Image src={Rosely} alt='rosely' className=' w-[613px] h-[500px]'/>
+                 <Image src={development} alt='rosely' className=' w-[613px] h-[500px]'/>
                <div className='bg-black xl:w-[613px] absolute -mt-12'>
                <div className='flex justify-between py-2 px-2'>
                <p className='text-white text-[20px]'>Web Development</p>
@@ -183,10 +191,10 @@ const Project = () => {
               <p className='font-bold text-[20px] text-center pt-12'>Instargam</p>
               <p className='font-bold xl:text-[40px] text-center'>Follow us on Instagram</p>
               <div className='flex gap-5 lg:flex-nowrap flex-wrap'>
-                <Image src={Rosely}  className='w-[300px] h-[300px]'/>
-                <Image src={Rosely}  className='w-[300px] h-[300px]'/>
-                <Image src={Rosely}  className='w-[300px] h-[300px]'/>
-                <Image src={Rosely}  className='w-[300px] h-[300px]'/>
+                <Image src={insta}  className='w-[300px] h-[300px]'/>
+                <Image src={insta}  className='w-[300px] h-[300px]'/>
+                <Image src={insta}  className='w-[300px] h-[300px]'/>
+                <Image src={insta}  className='w-[300px] h-[300px]'/>
 
               </div>
 

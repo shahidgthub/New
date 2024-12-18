@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import video from "../../../public/images/video.png"
 const About = () => {
+  // js
   return (
     <div className='container mx-auto'>
         <p className='text-[20px] font-bold pt-12'>About us</p>
@@ -11,13 +12,14 @@ const About = () => {
         <p>Tempor malesuada eget placerat proin turpis ut at tortor<br/> Amet sed bibendum nisl ut nibh at. 
             Praesent porttitor fusce<br/> sed eu dolor enim turpis sociis</p>
             </div>
-            <div className='flex gap-12 pt-12'>
+            <div className='flex gap-12 pt-12 lg:flex-nowrap flex-wrap'>
               <Image src={video} className='w-[720px]'/>
               <div className='bg-black w-[418px] h-[580px]'>
                 <div className='pt-12'>
                   <p className='text-[32px] font-bold text-white text-center'>25</p>
                 <p className='text-white text-center'>Year of experince
                   </p>
+                
                   </div>
                   <div className='pt-12'>
                   <p className='text-[32px] font-bold text-white text-center'>42</p>

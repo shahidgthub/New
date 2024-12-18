@@ -11,7 +11,7 @@ const Contact = () => {
   return (
       <>
     <div className=' container mx-auto'>
-        <div className=' flex gap-12 pt-12 '>
+        <div className=' flex gap-12 pt-12 lg:flex-nowrap flex-wrap '>
         <div>
         <p className='font-bold text-[20px]'>Contact</p>
         <p className='text-[40px] font-bold'>Turning ideas<br/> 
@@ -70,7 +70,7 @@ into digital solutions</p>
 <div><Image src={rosely} className='w-[636px]'/></div>
 </div>
 {/* 3 */}
-<div className='flex gap-3 pt-6'>
+<div className='flex gap-3 pt-6 lg:flex-nowrap flex-wrap'>
     <div className='bg-black w-[416px] h-[180px] '>
         <p className='font-bold text-center text-white pt-12 text-[20px]'>Address</p>
         <div className='flex items-center justify-center gap-3'>
@@ -109,10 +109,8 @@ mrsam@gmail.com</p>
     referrerPolicy="no-referrer-when-downgrade">
   </iframe>
 </div>
+</div>
 
-
-
-    </div>
     </>
   )
 }
