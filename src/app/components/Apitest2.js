@@ -94,4 +94,3 @@ const Apitest2 = () => {
 };
 
 export default Apitest2;
-s
