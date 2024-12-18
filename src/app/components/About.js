@@ -108,12 +108,13 @@ const About = () => {
                </div>
                </div>
                </div>
+               <p className='pt-6'>Blog</p>
                <div className="flex justify-between lg:flex-nowrap flex-wrap lg:text-start text-center pt-6">
-  <div>
-    <p>Blog</p>
+  
     <p className="text-[32px] font-bold">Our Latest News</p>
-  </div>
-  <button className='border px-6'>All news</button>
+    
+  
+  <button className='border px-6 inline-block'>All news </button>
 </div>
 
               <div className='gap-4 flex'>
