@@ -88,8 +88,8 @@ const About = () => {
              <div className='flex gap-24 pt-12'>
                <Image src={Rosely} className='w-[526px] h-[526px]'/>
                <div className='pt-12'>
-                 <p className='text-[32px] font-bold'>Empowering Businesses <br/>for the Digital Age</p>
-                 <p>Tempor malesuada eget placerat proin turpis ut at tortor. Amet sed bibendum nisl ut nibh at. </p>
+                 <p className='text-[32px] font-bold text-center'>Empowering Businesses <br/>for the Digital Age</p>
+                 <p className='text-center'>Tempor malesuada eget placerat proin turpis ut at tortor. Amet sed bibendum nisl ut nibh at. </p>
                <div className='flex gap-12 pt-6'>
                  <div>
                    <Image src={Digital}/>

@@ -23,7 +23,7 @@ const Header = () => {
     <Mobilemenu className='xl:hidden  flex' />
        
         <ul className='lg:flex gap-6 -mt-3  hidden'>
-          <li><Link href='' className='text-[16px] font-bold text-white'> Home </Link></li>
+          <li><Link href=''className='text-[16px] font-bold text-white'> Home </Link></li>
           <li><Link href='' className='text-[16px] font-bold text-white'> Service </Link></li>
           <li><Link href=''className='text-[16px] font-bold text-white'> Aboutus </Link></li>
           <li><Link href=''className='text-[16px] font-bold text-white'> Contact </Link></li>

@@ -7,7 +7,7 @@ const Apiprac = () => {
     // Function to fetch data
     const fetchData = () => {
         console.log('Button clicked! Starting fetch...');
-        fetch('https://fakestoreapi.com/products/1', {
+        fetch('https://fakestoreapi.com/products/1',{
             method: 'GET',
             headers: { 'Content-Type': 'application/json' },
         })
