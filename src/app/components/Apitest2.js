@@ -64,13 +64,13 @@
 import React, { useEffect, useState } from "react";
 
 const Apitest2 = () => {
-  const [test, setTest] = useState({}); // Initialize the state as an empty object, since you are fetching a single product
+  const [test, setTest] = useState({});//Initialize the state as an empty object, since you are fetching a single product
 
   // Fetching data function
   const FetchApi = () => {
-    fetch('https://fakestoreapi.com/products/1')
+    fetch('https://fakestoreapi.com/products/4')
       .then(res => res.json())
-      .then(json => {
+      .then(json =>{
         console.log(json); 
         setTest(json); // Set the fetched product data to state
       })
@@ -85,11 +85,13 @@ const Apitest2 = () => {
   return (
     <div>
       <div className="w-[400px] border-2">
-        <p>Title: {test.title}</p>
-        <p>Price: {test.price}</p>
-        <p>Description: {test.description}</p>
-      </div>
-    </div>
+  <p className="">Title: {test.title}</p>
+  <img src={test.image} alt={test.title} className="w-[300px] h-[300px] object-cover" />
+  <p className="">Price:{test.price}</p>
+  <p>Description:{test.description}</p>
+</div>
+
+</div>
   );  
 };
 
