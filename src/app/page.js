@@ -14,17 +14,17 @@ import Software from './components/Software'
 const page = () => {
   return (
     <>
-    {/* <Header/> */}
-    {/* <Home/> */}
-    {/* <Service/> */}
-    {/* <Software/> */}
-    {/* <Footer/> */}
-    {/* <Project/> */}
-    {/* <About/> */}
-    {/* <Contact/> */}
+    <Header/>
+    <Home/>
+    <Service/>
+    <Software/>
+    <Footer/>
+    <Project/>
+    <About/>
+    <Contact/>
     {/* <Practice/> */}
     {/* <Apiprac/> */}
-    <Apitest2/>
+    {/* <Apitest2/> */}
     
     
     </>

@@ -55,7 +55,7 @@ const Project = () => {
              {/* 1 */}
              <div className='w-[412px]   py-6'>
                <div className='px-6 pt-6'>
-                 <Image src={Web}/>
+                 <Image src={Web} alt='web'/>
                <h1 className='text-[20px] font-bold text-white py-6'>Web Development</h1>
                <p className='text-white'>Non tristique et nec nibh nisl aliquet et amet posuere.
                 Vel nunc aliquam magna lacinia nulla risus. </p>
@@ -66,7 +66,7 @@ const Project = () => {
              {/* 2 */}
              <div className='w-[412px]  py-6'>
              <div className='px-6 pt-6'>
-             <Image src={Mob}/>
+             <Image src={Mob} alt='mob'/>
                <h1 className='text-[20px] font-bold text-white py-6'>Mobile Development</h1>
                <p className='text-white'>Dictum ut volutpat duis faucibus mauris nec. At quam molestie hendrerit nulla.
                 Donec sed sem ac massa turpis luctus  </p>
@@ -76,7 +76,7 @@ const Project = () => {
              {/* 3 */}
              <div className='w-[412px]  py-6'>
              <div className='px-6 pt-6'>
-             <Image src={Soft}/>
+             <Image src={Soft} alt='soft'/>
                <h1 className='text-[20px] font-bold text-white py-6'>Software Development</h1>
                <p className='text-white'>Amet in mauris vel enim consequat hac risus. 
                Nec duis viverra lacus ac et. Gravida ornare eget rhoncus  </p>
@@ -89,7 +89,7 @@ const Project = () => {
              <div className='flex gap-4 pt-6 lg:flex-nowrap flex-wrap'>
                <div className='w-[412px]  py-6'>
                <div className='px-6 pt-6'>
-               <Image src={Brand}/>
+               <Image src={Brand} alt='brand'/>
                <h1 className='text-[20px] font-bold text-white py-6'>Branding</h1>
                <p className='text-white'>Non tristique et nec nibh nisl aliquet et amet posuere.
                 Vel nunc aliquam magna lacinia nulla risus.   </p>
@@ -99,7 +99,7 @@ const Project = () => {
                {/* 2 */}
                <div className='w-[412px]  py-6'>
                <div className='px-6 pt-6'>
-               <Image src={Digital}/>
+               <Image src={Digital} alt='digital'/>
 
                <h1 className='text-[20px] font-bold text-white py-6'>Digital marketing</h1>
                <p className='text-white'>Amet in mauris vel enim consequat hac risus. Nec duis viverra lacus ac et.
@@ -110,7 +110,7 @@ const Project = () => {
                {/* 3 */}
                <div className='w-[412px]  py-6'>
                <div className='px-6 pt-6'>
-               <Image src={Cloud}/>
+               <Image src={Cloud} alt='cloud'/>
                <h1 className='text-[20px] font-bold text-white py-6'>Cloud Services</h1>
                <p className='text-white'>Dictum ut volutpat duis faucibus mauris nec. At quam molestie hendrerit nulla.
                 Donec sed sem ac massa turpis luctus   </p>

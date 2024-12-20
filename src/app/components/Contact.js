@@ -74,7 +74,7 @@ into digital solutions</p>
 </form>
 
 </div>
-<div><Image src={rosely} className='w-[636px] h-[600px]'/></div>
+<div><Image src={rosely} alt='rosely' className='w-[636px] h-[600px]'/></div>
 </div>
 {/* 3 */}
 <div className='flex gap-3 pt-6 lg:flex-nowrap flex-wrap'>
@@ -133,7 +133,7 @@ mrsam@gmail.com</p>
               <div className='grid xl:grid-cols-5 md:grid-cols-3 xl:sm:grid-cols-2  sm:grid-cols-1 xl:justify-start justify-center'>
               <div className=''>
                 <div className='flex gap-2'>
-                <Image src={logo} className='w-[40px] h-[40px] mt-6'/>
+                <Image src={logo} alt='logo' className='w-[40px] h-[40px] mt-6'/>
               <p className='font-bold text-[20px] text-white py-6'>Creative Agency</p>
               </div>
               <p className='text-white'>Velit facilisi senectus velitelementum. 

@@ -16,7 +16,7 @@ const Apiprac = () => {
                 if (response.ok) {
                     return response.json();
                 } else {
-                    throw new Error(`HTTP error! Status: ${response.status}`);
+                    throw new Error(`HTTP error! Status:${response.status}`);
                 }
             })
             .then(data => {
