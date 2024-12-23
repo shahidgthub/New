@@ -3,7 +3,7 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 import Image from 'next/image';
 import Rosely from '../../../public/images/Rosely.png'
 import { BsFacebook } from "react-icons/bs";
-import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { IoClose } from "react-icons/io5";
 import { MdCameraAlt } from "react-icons/md";
 
 
@@ -72,46 +72,50 @@ const Service = () => {
           mauris nec. At quam molestie</p>
           <div className='flex gap-5 pt-2 mx-2'>
                <BsFacebook />
-          <TiSocialLinkedinCircular />
+               <IoClose />
+
               <MdCameraAlt />
             </div>
         </div>
         {/* 2 */}
         <div className='bg-gray-100 w-[300px] '>
             <Image src={Rosely} alt='rosely'/>
-            <p className='font-bold pt-2'>Roselyn Ward</p>
+            <p className='font-bold pt-2'>Joan Hansen</p>
             <p className=' font-semibolds pt-2'>Founder & CEO</p>
             <p className='pt-2'>Dictum ut volutpat duis faucibus
           mauris nec. At quam molestie</p>
           <div className='flex gap-5 pt-2 mx-2'>
                <BsFacebook />
-          <TiSocialLinkedinCircular />
+               <IoClose />
+
               <MdCameraAlt />
             </div>
         </div>
         {/* 3 */}
         <div className='bg-gray-100 w-[300px] '>
             <Image src={Rosely} alt='rosely'/>
-            <p className='font-bold pt-2'>Roselyn Ward</p>
+            <p className='font-bold pt-2'>Averi Davies</p>
             <p className=' font-semibolds pt-2'>Founder & CEO</p>
             <p className='pt-2'>Dictum ut volutpat duis faucibus
           mauris nec. At quam molestie</p>
           <div className='flex gap-5 pt-2 mx-2'>
                <BsFacebook />
-          <TiSocialLinkedinCircular />
+               <IoClose />
+
               <MdCameraAlt />
             </div>
         </div>
         {/* 4 */}
         <div className='bg-gray-100 w-[300px]'>
             <Image src={Rosely} alt='rosely'/>
-            <p className='font-bold pt-2'>Roselyn Ward</p>
+            <p className='font-bold pt-2'>Kelvin Levy</p>
             <p className=' font-semibolds pt-2'>Founder & CEO</p>
             <p className='pt-2'>Dictum ut volutpat duis faucibus
           mauris nec. At quam molestie</p>
           <div className='flex gap-5 pt-2 mx-2'>
                <BsFacebook />
-          <TiSocialLinkedinCircular />
+               <IoClose />
+
               <MdCameraAlt />
             </div>
         </div>

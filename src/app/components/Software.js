@@ -62,39 +62,39 @@ a time.</p>
                   <div className='bg-[#FFFFFF] w-[400px] py-4'>
                       <Image src={Blog} alt='Blog'/>
                       <div className='flex justify-between py-3 px-2'>
-                      <p className='text-[#00000099] mt-2'>March 12, 2024 </p>
-                      <p className='px-6 py-2 bg-[black] text-[#25FD54]'>Development</p>
+                      <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
+                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>
                       </div>
                       <p className='font-bold text-[20px]'>Eu amettristique nibhsit porttitor ipsum nullam velit</p>
                       <div className='flex gap-4 text-[#25FD54] pt-3'>
-                      <h1>Reed more</h1>
-                      <FaLongArrowAltRight className='mt-1'/>
+                      <h1 className='text-[16px] font-semibold'>Reed more</h1>
+                      <FaLongArrowAltRight className='mt-1 w-[20px] h-[20px]'/>
                      </div>
                      </div>
                      {/* 2 */}
                      <div className='bg-[#FFFFFF] w-[400px] py-4'>
                       <Image src={Blog} alt='Blog'/>
                       <div className='flex justify-between py-3 px-2'>
-                      <p className='text-[#00000099] mt-2'>March 12, 2024 </p>
-                      <p className='px-6 py-2 bg-[black] text-[#25FD54]'>Development</p>
+                      <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
+                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>
                       </div>
                       <p className='font-bold text-[20px]'>Eu amettristique nibhsit porttitor ipsum nullam velit</p>
                       <div className='flex gap-4 text-[#25FD54] pt-3'>
-                      <h1>Reed more</h1>
-                      <FaLongArrowAltRight className='mt-1'/>
+                      <h1 className='text-[16px] font-semibold'>Reed more</h1>
+                      <FaLongArrowAltRight className='mt-1 w-[20px] h-[20px]'/>
                      </div>
                      </div>
                      {/* 3 */}
                      <div className='bg-[#FFFFFF] w-[400px] py-4'>
                       <Image src={Blog} alt='Blog'/>
                       <div className='flex justify-between py-3 px-2'>
-                      <p className='text-[#00000099] mt-2'>March 12, 2024 </p>
-                      <p className='px-6 py-2 bg-[black] text-[#25FD54]'>Development</p>
+                      <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
+                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>
                       </div>
                       <p className='font-bold text-[20px]'>Eu amettristique nibhsit porttitor ipsum nullam velit</p>
                       <div className='flex gap-4 text-[#25FD54] pt-3'>
-                      <h1>Reed more</h1>
-                      <FaLongArrowAltRight className='mt-1'/>
+                      <h1 className='text-[16px] font-semibold'>Reed more</h1>
+                      <FaLongArrowAltRight className='mt-1 w-[20px] h-[20px]'/>
                      </div>
                      </div>
                     

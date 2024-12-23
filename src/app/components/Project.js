@@ -4,9 +4,6 @@ import bussiness from '../../../public/images/Bussiness.jpg'
 import individual from '../../../public/images/individual.jpg'
 import development from '../../../public/images/Webdevelopment.jpg'
 import insta from '../../../public/images/instagram.jpg'
-
-
-
 import blog from '../../../public/images/Blog1.png'
 import Rosely from '../../../public/images/Rosely.png'
 import { FaArrowRight } from "react-icons/fa";
@@ -16,6 +13,10 @@ import Soft from '../../../public/images/Soft.png'
 import Brand from '../../../public/images/Brand2.png'
 import Digital from '../../../public/images/Digital.png'
 import Cloud from '../../../public/images/Cloud.png'
+import Link from 'next/link'
+import logo from '../../../public/images/Logo.png'
+import { MdOutlineEmail } from "react-icons/md";
+
 
 
 
@@ -31,6 +32,47 @@ const Project = () => {
   return (
       <>
       <div className='container mx-auto'>
+         {/* Header */}
+      <nav className='py-6   border-gray-50'>
+    <div className='container mx-auto'>
+      <div className='flex justify-between'>
+        <div className='flex gap-2'>
+        <Image 
+  src={logo} 
+  alt='logo' 
+  className='w-[24px] h-[24px] mt-2 ' 
+  style={{ backgroundColor: 'black' }}
+/>
+
+        <p className='text-[16px] font-bold mt-2 '>Creative agency</p>
+        
+    </div>
+    <div>
+       
+        <ul className='lg:flex gap-6 mt-2  hidden'>
+          <li><Link href=''className='text-[16px] font-bold'> Home </Link></li>
+          <li><Link href='/service' className='text-[16px] font-bold '> Service </Link></li>
+          <li><Link href='/about'className='text-[16px] font-bold '> Aboutus </Link></li>
+          <li><Link href='/contact'className='text-[16px] font-bold '> Contact </Link></li>
+          </ul>
+          </div>
+          <div className='lg:flex gap-4 hidden '>
+            <div className='flex  mt-2 text-white'>
+          
+          <MdOutlineEmail className=' w-[24px] h-[24px]'  />
+
+          <p className=' text-[16px] font-bold text-black'> dhrakar@msn.com</p>
+          </div>
+          
+          
+          <button className='px-4 py-2 border-2 border-black text-black   text-[16px] font-bold'>Get a Quote</button>
+            </div>
+      </div>
+     
+
+    </div>
+    </nav>
+      {/* endHeader */}
           <h1 className='font-bold text-center'>Service</h1>
           <h2 className='text-[32px] text-center font-bold'>We have solutions for <br/>any problem</h2>
           <div className='flex gap-6 lg:flex-nowrap flex-wrap'>

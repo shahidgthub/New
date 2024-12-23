@@ -24,9 +24,9 @@ const Header = () => {
        
         <ul className='lg:flex gap-6 -mt-3  hidden'>
           <li><Link href=''className='text-[16px] font-bold text-white'> Home </Link></li>
-          <li><Link href='' className='text-[16px] font-bold text-white'> Service </Link></li>
-          <li><Link href=''className='text-[16px] font-bold text-white'> Aboutus </Link></li>
-          <li><Link href=''className='text-[16px] font-bold text-white'> Contact </Link></li>
+          <li><Link href='/service' className='text-[16px] font-bold text-white'> Service </Link></li>
+          <li><Link href='/about'className='text-[16px] font-bold text-white'> Aboutus </Link></li>
+          <li><Link href='/contact'className='text-[16px] font-bold text-white'> Contact </Link></li>
           </ul>
           </div>
           <div className='lg:flex gap-4 hidden '>

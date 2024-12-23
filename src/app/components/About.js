@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link';
 import { FaLongArrowAltRight } from "react-icons/fa";
 import experince from "../../../public/images/experince.png"
 import people from "../../../public/images/People.png"
@@ -8,6 +9,8 @@ import quotes from "../../../public/images/Quotes.png"
 import Rosely from "../../../public/images/Rosely.png"
 import Digital from "../../../public/images/Digitalma.png"
 import Cloud from "../../../public/images/Cloudser.png"
+import logo from '../../../public/images/Logo.png'
+import { MdOutlineEmail } from "react-icons/md";
 
 
 
@@ -21,6 +24,47 @@ const About = () => {
   // js
   return (
     <div className='container mx-auto'>
+      {/* Header */}
+      <nav className='py-6   border-gray-50'>
+    <div className='container mx-auto'>
+      <div className='flex justify-between'>
+        <div className='flex gap-2'>
+        <Image 
+  src={logo} 
+  alt='logo' 
+  className='w-[24px] h-[24px] mt-2 ' 
+  style={{ backgroundColor: 'black' }}
+/>
+
+        <p className='text-[16px] font-bold mt-2 '>Creative agency</p>
+        
+    </div>
+    <div>
+       
+        <ul className='lg:flex gap-6 mt-2  hidden'>
+          <li><Link href=''className='text-[16px] font-bold'> Home </Link></li>
+          <li><Link href='/service' className='text-[16px] font-bold '> Service </Link></li>
+          <li><Link href='/about'className='text-[16px] font-bold '> Aboutus </Link></li>
+          <li><Link href='/contact'className='text-[16px] font-bold '> Contact </Link></li>
+          </ul>
+          </div>
+          <div className='lg:flex gap-4 hidden '>
+            <div className='flex  mt-2 text-white'>
+          
+          <MdOutlineEmail className=' w-[24px] h-[24px]'  />
+
+          <p className=' text-[16px] font-bold text-black'> dhrakar@msn.com</p>
+          </div>
+          
+          
+          <button className='px-4 py-2 border-2 border-black text-black   text-[16px] font-bold'>Get a Quote</button>
+            </div>
+      </div>
+     
+
+    </div>
+    </nav>
+      {/* endHeader */}
         <p className='text-[20px] font-bold pt-12'>About us</p>
         <div className='flex justify-between'>
 
@@ -29,7 +73,7 @@ const About = () => {
             Praesent porttitor fusce<br/> sed eu dolor enim turpis sociis</p>
             </div>
             <div className='flex gap-12 pt-12 lg:flex-nowrap flex-wrap'>
-              <Image src={video} alt="experince" className='w-[720px]'/>
+              <Image src={video} alt="experince" className='w-[820px]'/>
               <div className='bg-black w-[418px] h-[580px]'>
                 <div className='pt-12'>
                   <div className='flex items-center justify-center'>

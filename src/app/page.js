@@ -19,9 +19,9 @@ const page = () => {
     <Service/>
     <Software/>
     <Footer/>
-    <Project/>
-    <About/>
-    <Contact/>
+    {/* <Project/> */}
+    {/* <About/> */}
+    {/* <Contact/> */}
     {/* <Practice/> */}
     {/* <Apiprac/> */}
     {/* <Apitest2/> */}
