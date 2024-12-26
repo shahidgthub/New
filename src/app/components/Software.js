@@ -53,14 +53,14 @@ a time.</p>
       {/* 2sec */}
       <section className='bg-[#FFFFFF] relative -mt-10'>
           <div className='container mx-auto'>
-              <p className='font-bold text-[16px] py-6'>Blog</p>
+              <p className='font-bold text-[24px] py-6'>Blog</p>
               <div className='flex justify-between lg:flex-nowrap flex-wrap lg:text-start text-center'>
               <p className='text-[32px] font-bold'>Our Latest News</p>
               <button className='px-6 py-2 border-2 border-black font-bold'>All news</button>
               </div>
               <div className='flex gap-4 py-12 lg:flex-nowarp flex-wrap'>
                   <div className='bg-[#FFFFFF] w-[400px] py-4'>
-                      <Image src={Blog} alt='Blog'/>
+                      <Image src={Blog} alt='Blog' className='rounded-xl'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
                       <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>
@@ -73,7 +73,7 @@ a time.</p>
                      </div>
                      {/* 2 */}
                      <div className='bg-[#FFFFFF] w-[400px] py-4'>
-                      <Image src={Blog} alt='Blog'/>
+                      <Image src={Blog} alt='Blog' className='rounded-xl'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
                       <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>
@@ -86,7 +86,7 @@ a time.</p>
                      </div>
                      {/* 3 */}
                      <div className='bg-[#FFFFFF] w-[400px] py-4'>
-                      <Image src={Blog} alt='Blog'/>
+                      <Image src={Blog} alt='Blog' className='rounded-xl'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
                       <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>

@@ -30,7 +30,7 @@ const Service = () => {
             
             {/* right */}
             <div className='bg-[#000000CC] xl:w-[636px] md:w-[610px] xl:sm:w-[400px] w-[310px] border'>
-                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12'> web Development</button>
+                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12'> Web Development</button>
                 <p className='text-[32px] font-bold text-white py-6 px-12'>Engineering Reliable Web <br/>Solutions</p>
                 <div className='inline-flex border border-[#24FD54] px-2 py-2 rounded-full mt-6 mx-12 mb-6'>
                 <IoArrowForwardOutline  className='text-[#24FD54]'/></div>
@@ -61,16 +61,16 @@ const Service = () => {
     </section>
     {/* team */}
     <div className='conatiner mx-auto'>
-        <h1 className='text-[20px] font-bold text-center pt-6'>Our Team</h1>
-        <p className='text-[32px] font-bold text-center'>our professional team</p>
+        <h1 className='text-[20px] font-bold text-center pt-12'>Our Team</h1>
+        <p className='text-[32px] font-bold text-center py-6'>our professional team</p>
         <div className=' mx-12 flex gap-6 lg:flex-nowrap flex-wrap'>
-        <div className='bg-gray-100 w-[300px]'>
-            <Image src={Rosely} alt='rosely'/>
-            <p className='font-bold pt-2'>Roselyn Ward</p>
-            <p className=' font-semibolds pt-2'>Founder & CEO</p>
-            <p className='pt-2'>Dictum ut volutpat duis faucibus
+        <div className='bg-gray-100 w-[300px] pb-6'>
+            <Image src={Rosely} alt='rosely' className='rounded-xl'/>
+            <p className='font-bold pt-2 px-2'>Roselyn Ward</p>
+            <p className=' font-semibolds pt-2 px-2'>Founder & CEO</p>
+            <p className='pt-2 px-2'>Dictum ut volutpat duis faucibus
           mauris nec. At quam molestie</p>
-          <div className='flex gap-5 pt-2 mx-2'>
+          <div className='flex gap-5 pt-2 px-2'>
                <BsFacebook />
                <IoClose />
 
@@ -78,13 +78,13 @@ const Service = () => {
             </div>
         </div>
         {/* 2 */}
-        <div className='bg-gray-100 w-[300px] '>
-            <Image src={Rosely} alt='rosely'/>
-            <p className='font-bold pt-2'>Joan Hansen</p>
-            <p className=' font-semibolds pt-2'>Founder & CEO</p>
-            <p className='pt-2'>Dictum ut volutpat duis faucibus
+        <div className='bg-gray-100 w-[300px] pb-6 '>
+            <Image src={Rosely} alt='rosely' className='rounded-xl'/>
+            <p className='font-bold pt-2 px-2'>Joan Hansen</p>
+            <p className=' font-semibolds pt-2 px-2'>Founder & CEO</p>
+            <p className='pt-2 px-2'>Dictum ut volutpat duis faucibus
           mauris nec. At quam molestie</p>
-          <div className='flex gap-5 pt-2 mx-2'>
+          <div className='flex gap-5 pt-2 px-2'>
                <BsFacebook />
                <IoClose />
 
@@ -92,13 +92,13 @@ const Service = () => {
             </div>
         </div>
         {/* 3 */}
-        <div className='bg-gray-100 w-[300px] '>
-            <Image src={Rosely} alt='rosely'/>
-            <p className='font-bold pt-2'>Averi Davies</p>
-            <p className=' font-semibolds pt-2'>Founder & CEO</p>
-            <p className='pt-2'>Dictum ut volutpat duis faucibus
+        <div className='bg-gray-100 w-[300px] pb-6'>
+            <Image src={Rosely} alt='rosely' className='rounded-xl'/>
+            <p className='font-bold pt-2 px-2'>Averi Davies</p>
+            <p className=' font-semibolds pt-2 px-2'>Founder & CEO</p>
+            <p className='pt-2 px-2'>Dictum ut volutpat duis faucibus
           mauris nec. At quam molestie</p>
-          <div className='flex gap-5 pt-2 mx-2'>
+          <div className='flex gap-5 pt-2 px-2'>
                <BsFacebook />
                <IoClose />
 
@@ -106,13 +106,13 @@ const Service = () => {
             </div>
         </div>
         {/* 4 */}
-        <div className='bg-gray-100 w-[300px]'>
-            <Image src={Rosely} alt='rosely'/>
-            <p className='font-bold pt-2'>Kelvin Levy</p>
-            <p className=' font-semibolds pt-2'>Founder & CEO</p>
-            <p className='pt-2'>Dictum ut volutpat duis faucibus
+        <div className='bg-gray-100 w-[300px] pb-6'>
+            <Image src={Rosely} alt='rosely' className='rounded-xl'/>
+            <p className='font-bold pt-2 px-2'>Kelvin Levy</p>
+            <p className=' font-semibolds pt-2 px-2'>Founder & CEO</p>
+            <p className='pt-2 px-2'>Dictum ut volutpat duis faucibus
           mauris nec. At quam molestie</p>
-          <div className='flex gap-5 pt-2 mx-2'>
+          <div className='flex gap-5 pt-2 px-2'>
                <BsFacebook />
                <IoClose />
 
