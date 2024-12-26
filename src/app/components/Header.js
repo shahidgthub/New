@@ -23,18 +23,18 @@ const Header = () => {
     <Mobilemenu className='xl:hidden  flex' />
        
         <ul className='lg:flex gap-6 -mt-3  hidden'>
-          <li><Link href=''className='text-[16px] font-bold text-white'> Home </Link></li>
-          <li><Link href='/service' className='text-[16px] font-bold text-white'> Service </Link></li>
-          <li><Link href='/about'className='text-[16px] font-bold text-white'> Aboutus </Link></li>
-          <li><Link href='/contact'className='text-[16px] font-bold text-white'> Contact </Link></li>
+          <li><Link href=''className='text-[16px] font-bold text-white hover:text-[#24FD54]'> Home </Link></li>
+          <li><Link href='/service' className='text-[16px] font-bold text-white hover:text-[#24FD54]'> Service </Link></li>
+          <li><Link href='/about'className='text-[16px] font-bold text-white hover:text-[#24FD54]'> Aboutus </Link></li>
+          <li><Link href='/contact'className='text-[16px] font-bold text-white hover:text-[#24FD54]'> Contact </Link></li>
           </ul>
           </div>
           <div className='lg:flex gap-4 hidden '>
             <div className='flex  mt-2 text-white'>
           
-          <MdOutlineEmail className=' w-[24px] h-[24px]'  />
+          <MdOutlineEmail className=' w-[24px] h-[24px] hover:text-[#24FD54]'/>
 
-          <p className=' text-[16px] font-bold'> dhrakar@msn.com</p>
+          <p className=' text-[16px] font-bold hover:text-[#24FD54]'> dhrakar@msn.com</p>
           </div>
           
           

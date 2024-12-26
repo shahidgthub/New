@@ -24,9 +24,9 @@ const Mobilemenu = () => {
       <SheetDescription>
       <ul className='flex-col space-y-2'>
           <li><Link href='' className='text-[16px] font-bold '> Home </Link></li>
-          <li><Link href='' className='text-[16px] font-bold '> Service </Link></li>
-          <li><Link href=''className='text-[16px] font-bold '> Aboutus </Link></li>
-          <li><Link href=''className='text-[16px] font-bold '> Contact </Link></li>
+          <li><Link href='/service' className='text-[16px] font-bold '> Service </Link></li>
+          <li><Link href='/about'className='text-[16px] font-bold '> Aboutus </Link></li>
+          <li><Link href='/contact'className='text-[16px] font-bold '> Contact </Link></li>
           </ul>
           <div className='flex-col  space-y-2'>
             <div className='flex  mt-2'>
