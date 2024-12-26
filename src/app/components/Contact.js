@@ -119,7 +119,7 @@ into digital solutions</p>
 <div><Image src={rosely} alt='rosely' className='w-[636px] h-[600px]'/></div>
 </div>
 {/* 3 */}
-<div className='flex gap-3 pt-6 lg:flex-nowrap flex-wrap'>
+<div className='flex gap-3 mt-12 lg:flex-nowrap flex-wrap'>
     <div className='bg-black w-[416px] h-[180px] '>
         <p className='font-bold text-center text-white pt-12 text-[20px]'>Address</p>
         <div className='flex items-center justify-center gap-3'>
@@ -149,7 +149,7 @@ mrsam@gmail.com</p>
     </div>
 
 </div>
-<div className="relative w-full pt-[32%] overflow-hidden rounded-lg mt-6">
+<div className="relative w-full pt-[32%] overflow-hidden rounded-lg mt-12">
   <iframe
     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26582.934903732472!2d73.14608096881844!3d33.60875873491331!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfec0851d92db3%3A0x66f28b1327836ee2!2sGulberg%20Greens%20Islamabad%2C%20Islamabad%20Capital%20Territory%2C%20Pakistan!5e0!3m2!1sen!2s!4v1734080407976!5m2!1sen!2s"
     className="absolute top-0 left-0 w-full h-[400px] border-0"
@@ -215,11 +215,11 @@ mrsam@gmail.com</p>
                            <li><Link href='' className='text-[16px]'>Blog</Link></li>
 
                            <li><Link href='' className='text-[16px]'>Contact</Link></li></ul>
-                           <p className='text-[16px] text-[#FFFFFF80] text-center pt-4 border-b-2  border-[#25FD54] py-3'> © Copyright Dev.01  2024. Design by Creative Themes</p>
+                           <p className='text-[16px] text-[#FFFFFF80] text-center pt-6 border-b-2  border-[#25FD54] py-6'> © Copyright Dev.01  2024. Design by Creative Themes</p>
                    
-<div className='flex itens-center justify-center gap-6 py-6'>
+<div className='flex itens-center justify-center gap-6 py-8'>
 <RiFacebookCircleLine 
- className='h-[24px] w-[24px] text-[#FFFFFF] '/>
+ className='h-[24px] w-[24px] text-[#FFFFFF]'/>
  <IoCameraOutline className='h-[24px] w-[24px] text-[#FFFFFF] ' />
  <FaYoutube className='h-[24px] w-[24px] text-[#FFFFFF]' />
 
