@@ -2,6 +2,8 @@ import React from 'react'
 import Link from 'next/link'
 import { RiFacebookCircleLine } from "react-icons/ri";
 import { IoCameraOutline } from "react-icons/io5";
+import { RxCross2 } from "react-icons/rx";
+
 import { FaYoutube } from "react-icons/fa6";
 
 
@@ -57,6 +59,8 @@ const Footer = () => {
 <div className='flex itens-center justify-center gap-6 py-6'>
 <RiFacebookCircleLine 
  className='h-[24px] w-[24px] text-[#FFFFFF] '/>
+ <RxCross2 className='h-[24px] w-[24px] text-[#FFFFFF] '/> 
+
  <IoCameraOutline className='h-[24px] w-[24px] text-[#FFFFFF] ' />
  <FaYoutube className='h-[24px] w-[24px] text-[#FFFFFF]' />
 

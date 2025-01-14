@@ -7,12 +7,22 @@ import people from "../../../public/images/People.png"
 import project from "../../../public/images/project.png"
 import quotes from "../../../public/images/Quotes.png"
 import Rosely from "../../../public/images/Rosely.png"
+import AboutL from "../../../public/images/aboutL.jpg"
+import AboutL2 from "../../../public/images/aboutL2.jpg"
+import AboutL3 from "../../../public/images/aboutL3.jpg"
+import digitalage from "../../../public/images/digitalage.jpg"
+
 import Digital from "../../../public/images/Digitalma.png"
 import Cloud from "../../../public/images/Cloudser.png"
 import logo from '../../../public/images/Logo.png'
 import { MdOutlineEmail } from "react-icons/md";
 import video from "../../../public/images/video.png"
 import Project from './Project'
+import { RiFacebookCircleLine } from "react-icons/ri";
+import { IoCameraOutline } from "react-icons/io5";
+import { RxCross2 } from "react-icons/rx";
+
+import { FaYoutube } from "react-icons/fa6";
 const About = () => {
   // js
   return (
@@ -124,7 +134,7 @@ const About = () => {
              </div>
              {/* DigitalAge */}
              <div className='flex gap-24 pt-12 lg:flex-nowrap flex-wrap'>
-               <Image src={Rosely} alt='rosely'className='w-[526px] h-[526px]'/>
+               <Image src={digitalage} alt='digitalage'className='w-[526px] h-[526px] rounded-lg'/>
                <div className='pt-12'>
                  <p className='text-[32px] font-bold text-center'>Empowering Businesses <br/>for the Digital Age</p>
                  <p className='text-center'>Tempor malesuada eget placerat proin turpis ut at tortor. Amet sed bibendum nisl ut nibh at. </p>
@@ -157,7 +167,7 @@ const About = () => {
 
               <div className='gap-4 flex lg:flex-nowrap flex-wrap pt-6'>
               <div className='bg-[#FFFFFF] w-[413px] py-4'>
-                      <Image src={Rosely} alt='Blog' className=' w-[413px] h-[380px]'/>
+                      <Image src={AboutL} alt='Blog' className=' w-[413px] h-[380px] rounded-lg'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
                       <p className='px-6 py-2 bg-[black] text-[#25FD54]'>Development</p>
@@ -170,7 +180,7 @@ const About = () => {
                      </div>
                      {/* 2 */}
                      <div className='bg-[#FFFFFF] w-[413px] py-4'>
-                      <Image src={Rosely} alt='Blog' className=' w-[413px] h-[380px]'/>
+                      <Image src={AboutL2} alt='Blog' className=' w-[413px] h-[380px] rounded-lg'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
                       <p className='px-6 py-2 bg-[black] text-[#25FD54]'>Development</p>
@@ -183,7 +193,7 @@ const About = () => {
                      </div>
                      {/* 3 */}
                      <div className='bg-[#FFFFFF] w-[413px] py-4'>
-                      <Image src={Rosely} alt='Blog' className=' w-[413px] h-[380px]'/>
+                      <Image src={AboutL3} alt='Blog' className=' w-[413px] h-[380px] rounded-lg'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
                       <p className='px-6 py-2 bg-[black] text-[#25FD54]'>Development</p>
@@ -250,6 +260,12 @@ const About = () => {
                            <p className='text-[16px] text-[#FFFFFF80] text-center pt-4 border-b-2  border-[#25FD54] py-3'> © Copyright Dev.01  2024. Design by Creative Themes</p>
                    
 <div className='flex itens-center justify-center gap-6 py-6'>
+<RiFacebookCircleLine 
+ className='h-[24px] w-[24px] text-[#FFFFFF] '/>
+ <RxCross2 className='h-[24px] w-[24px] text-[#FFFFFF] '/> 
+
+ <IoCameraOutline className='h-[24px] w-[24px] text-[#FFFFFF] ' />
+ <FaYoutube className='h-[24px] w-[24px] text-[#FFFFFF] ' />
 
 
 

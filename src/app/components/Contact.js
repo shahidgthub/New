@@ -3,12 +3,15 @@ import Image from 'next/image'
 import logo from '../../../public/images/Logo.png'
 
 import rosely from '../../../public/images/Rosely.png'
+import digital from '../../../public/images/digitals.jpg'
 import { IoLocationSharp } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import Footer from './Footer';
 import Link from 'next/link'
 import { RiFacebookCircleLine } from "react-icons/ri";
+import { RxCross2 } from "react-icons/rx";
+
 import { IoCameraOutline } from "react-icons/io5";
 import { FaYoutube } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
@@ -116,7 +119,7 @@ into digital solutions</p>
 </form>
 
 </div>
-<div><Image src={rosely} alt='rosely' className='w-[636px] h-[600px]'/></div>
+<div><Image src={digital} alt='rosely' className='w-[636px] h-[600px] rounded-lg'/></div>
 </div>
 {/* 3 */}
 <div className='flex gap-3 mt-12 lg:flex-nowrap flex-wrap'>
@@ -219,6 +222,8 @@ mrsam@gmail.com</p>
                    
 <div className='flex itens-center justify-center gap-6 py-8'>
 <RiFacebookCircleLine 
+ className='h-[24px] w-[24px] text-[#FFFFFF]'/>
+ <RxCross2 
  className='h-[24px] w-[24px] text-[#FFFFFF]'/>
  <IoCameraOutline className='h-[24px] w-[24px] text-[#FFFFFF] ' />
  <FaYoutube className='h-[24px] w-[24px] text-[#FFFFFF]' />

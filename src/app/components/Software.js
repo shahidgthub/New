@@ -3,14 +3,15 @@ import Image from 'next/image'
 import device from '../../../public/images/Device.png'
 import iphone from '../../../public/images/iphone.png'
 import Blog from '../../../public/images/Blog1.png'
+import microsoft2 from '../../../public/images/microsoft (2).png'
+import hp from '../../../public/images/hp.png'
+import intel from '../../../public/images/intel.png'
+import adobe from '../../../public/images/adobe.png'
+import google from '../../../public/images/google2.png'
+
+
+
 import { FaLongArrowAltRight } from "react-icons/fa";
-import {  Microsoft } from '../../../public/icon/icons'
-import { SiHp } from "react-icons/si";
-import { SiIntel } from "react-icons/si";
-import { SiAdobe } from "react-icons/si";
-import { IoLogoGoogle } from "react-icons/io";
-
-
 
 
 
@@ -101,14 +102,11 @@ a time.</p>
                      
               </div>
               <div className='pt-12 px-24 flex xl:gap-32  gap-12 '>
-              <Microsoft/>
-              <SiHp className='w-[48px] h-[48px]'/>
-              <SiIntel className='w-[48px] h-[48px]' />
-              <SiAdobe className='w-[133px] h-[48px]' />
-              <IoLogoGoogle className='w-[133px] h-[48px]' />
-
-
-
+              <Image src={microsoft2} alt='microsoft' className='w-[]'/>
+              <Image src={hp} alt='hp' className='w-[]'/>
+              <Image src={intel} alt='hp' className='w-[]'/>
+              <Image src={adobe} alt='hp' className='w-[]'/>
+              <Image src={google} alt='hp' className='w-[]'/>
               </div>
           </div>
       </section>
