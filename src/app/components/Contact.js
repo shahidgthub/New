@@ -63,7 +63,7 @@ const Contact = () => {
     </nav>
       {/* endHeader */}
     <div className=' container mx-auto'>
-      <div className=' flex gap-12 pt-12 lg:flex-nowrap flex-wrap '>
+      <div className=' flex gap-24 pt-12 lg:flex-nowrap flex-wrap '>
         <div>
         <p className='font-bold text-[20px]'>Contact</p>
         <p className='text-[40px] font-bold'>Turning ideas<br/> 
@@ -123,7 +123,7 @@ into digital solutions</p>
 </div>
 {/* 3 */}
 <div className='flex gap-3 mt-12 lg:flex-nowrap flex-wrap'>
-    <div className='bg-black w-[416px] h-[180px] '>
+    <div className='bg-black w-[416px] h-[180px] rounded-lg '>
         <p className='font-bold text-center text-white pt-12 text-[20px]'>Address</p>
         <div className='flex items-center justify-center gap-3'>
         <IoLocationSharp  className='w-[40px] h-[40px] text-[#24FD54]'/>
@@ -132,7 +132,7 @@ St. Dayton, OH 45420</p>
 </div>
     </div>
     {/* 2 */}
-    <div className='bg-black w-[416px] h-[180px] '>
+    <div className='bg-black w-[416px] h-[180px] rounded-lg '>
         <p className='font-bold text-center text-white pt-12 text-[20px]'>Email</p>
         <div className='flex items-center justify-center gap-3'>
         <MdOutlineMail className='w-[40px] h-[40px] text-[#24FD54]'/>
@@ -141,7 +141,7 @@ mrsam@gmail.com</p>
 </div>
     </div>
     {/* 3 */}
-    <div className='bg-black w-[416px] h-[180px] '>
+    <div className='bg-black w-[416px] h-[180px] rounded-lg'>
         <p className='font-bold text-center text-white pt-12 text-[20px]'>Phone</p>
         <div className='flex items-center justify-center gap-3'>
         <FaPhoneAlt className='w-[40px] h-[40px] text-[#24FD54]'/>
