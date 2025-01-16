@@ -15,7 +15,7 @@ Non tristique et nec nibh nisl aliquet et amet posuere. Vel nunc aliquam<br/>
  magna lacinia nulla risus. Montes magna praesent scelerisque pharetra
 </p>
 <div className='py-12 lg:text-start text-center'>
-<button className=' font-bold px-6 py-2 border  border-[#25FD54] bg-[#25FD54]'> Learn More</button>
+<button className=' font-bold px-6 py-2 border  border-[#25FD54] bg-[#25FD54] rounded-lg'> Learn More</button>
 </div>
 </div>
           </div>

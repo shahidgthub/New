@@ -22,7 +22,7 @@ const Service = () => {
         {/* parent */}
         <div className='flex gap-6  pt-6 lg:flex-nowrap flex-wrap lg:justify-start justify-center'>
             <div className='bg-[#000000CC] xl:w-[636px] md:w-[610px] xl:sm:w-[400px] w-[310px] border'>
-                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12'> Mobile App</button>
+                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12 rounded-lg'> Mobile App</button>
                 <p className='text-[32px] font-bold text-white py-6 px-12'>Apps That Transform<br/> Tomorrowv</p>
                 <div className='inline-flex border border-[#24FD54] px-2 py-2 rounded-full mt-6 mx-12  mb-6'>
                 <IoArrowForwardOutline  className='text-[#24FD54]'/></div>
@@ -30,7 +30,7 @@ const Service = () => {
             
             {/* right */}
             <div className='bg-[#000000CC] xl:w-[636px] md:w-[610px] xl:sm:w-[400px] w-[310px] border'>
-                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12'> Web Development</button>
+                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12 rounded-lg'> Web Development</button>
                 <p className='text-[32px] font-bold text-white py-6 px-12'>Engineering Reliable Web <br/>Solutions</p>
                 <div className='inline-flex border border-[#24FD54] px-2 py-2 rounded-full mt-6 mx-12 mb-6'>
                 <IoArrowForwardOutline  className='text-[#24FD54]'/></div>
@@ -40,7 +40,7 @@ const Service = () => {
                 
                 <div className='flex gap-6 pt-6 lg:flex-nowrap flex-wrap lg:justify-start justify-center'>
             <div className='bg-[#000000CC] xl:w-[627px] md:w-[610px] xl:sm:w-[400px] w-[310px] border'>
-                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12'> Sotware Development</button>
+                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12 rounded-lg'> Sotware Development</button>
                 <p className='text-[32px] font-bold text-white py-6 px-12'>Crafting Code for Your<br/> Unique Goals</p>
                 <div className='inline-flex border border-[#24FD54] px-2 py-2 rounded-full mt-6 mx-12 mb-6 '>
                 <IoArrowForwardOutline  className='text-[#24FD54]'/></div>
@@ -48,7 +48,7 @@ const Service = () => {
             
             {/* right */}
             <div className='bg-[#000000CC] xl:w-[627px]  md:w-[610px] xl:sm:w-[400px] w-[310px] border'>
-                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12'> Digital Marketing</button>
+                <button className='bg-white px-6 py-2 font-bold text-center mx-12 mt-12 rounded-lg'> Digital Marketing</button>
                 <p className='text-[32px] font-bold text-white py-6 px-12'>The Wise Choice for Digital<br/> Marketing Excellence</p>
                 <div className='inline-flex border border-[#24FD54] px-2 py-2 rounded-full mt-6 mx-12 mb-6'>
                 <IoArrowForwardOutline  className='text-[#24FD54]'/></div>

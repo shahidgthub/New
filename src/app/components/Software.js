@@ -31,7 +31,7 @@ const Software = () => {
 a time.</p>
 <p className='text-white '>Condimentum pellentesque scelerisque ac odio metus commodo.
      Enim pharetra<br/> at eget auctor volutpat lorem lacus massa elit. </p>
-     <button className='font-bold px-6 bg-[#25FD54] py-2 mt-6'>Learn more</button>
+     <button className='font-bold px-6 bg-[#25FD54] py-2 mt-6 rounded-lg'>Learn more</button>
      </div>
      <div className='py-24 mx-12'><Image src={device} alt='device' className='w-[550px]'/></div>
      </div>
@@ -44,7 +44,7 @@ a time.</p>
              <p className='text-white text-center py-6'>Condimentum pellentesque scelerisque ac odio metus commodo. Enim pharetra
                   <br/>at eget auctor volutpat lorem lacus massa elit. </p>
                   <span className='flex items-center justify-center py-6'>
-                  <button className='font-bold px-6 py-2 bg-[#25FD54] '>view all</button>
+                  <button className='font-bold px-6 py-2 bg-[#25FD54] rounded-lg'>view all</button>
                   </span>
  </div>
 
@@ -64,7 +64,7 @@ a time.</p>
                       <Image src={Blog} alt='Blog' className='rounded-xl'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
-                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>
+                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white rounded-lg'>Development</p>
                       </div>
                       <p className='font-bold text-[20px]'>Eu amettristique nibhsit porttitor ipsum nullam velit</p>
                       <div className='flex gap-4 text-[#25FD54] pt-3'>
@@ -77,7 +77,7 @@ a time.</p>
                       <Image src={Blog} alt='Blog' className='rounded-xl'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
-                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>
+                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white rounded-lg'>Development</p>
                       </div>
                       <p className='font-bold text-[20px]'>Eu amettristique nibhsit porttitor ipsum nullam velit</p>
                       <div className='flex gap-4 text-[#25FD54] pt-3'>
@@ -90,7 +90,7 @@ a time.</p>
                       <Image src={Blog} alt='Blog' className='rounded-xl'/>
                       <div className='flex justify-between py-3 px-2'>
                       <p className='text-[#00000099] mt-2 font-semibold'>March 12, 2024 </p>
-                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white'>Development</p>
+                      <p className='px-6 py-2 bg-[black] text-[#25FD54] hover:text-white rounded-lg'>Development</p>
                       </div>
                       <p className='font-bold text-[20px]'>Eu amettristique nibhsit porttitor ipsum nullam velit</p>
                       <div className='flex gap-4 text-[#25FD54] pt-3'>
